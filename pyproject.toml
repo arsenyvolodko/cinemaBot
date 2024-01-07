@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cinema-bot"
+version = "0.1.0"
+description = ""
+authors = ["arsenyvolodko <arvolodko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+kinopoisk-dev = "^0.2.0"
+fastapi = "^0.105.0"
+selenium-wire = "^5.1.0"
+beautifulsoup4 = "^4.12.2"
+sqlalchemy = "^2.0.23"
+psycopg2-binary = "^2.9.9"
+aiogram = "^2.25.1"
+async-googlesearch-python = {git = "https://github.com/alexmerm/async-googlesearch.git"}
+async-cse = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
